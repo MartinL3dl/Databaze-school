@@ -43,5 +43,9 @@ https://i.imgur.com/k5AjrSd.png
 https://i.imgur.com/m3xCjGo.png
 */
 
-
+4.11
+ALTER TABLE employees ADD id_car int; 
+describe employees;
+UPDATE employees SET id_car = 4 WHERE id_employees = 1;
+/* https://i.imgur.com/SbBdMcR.png */
 
