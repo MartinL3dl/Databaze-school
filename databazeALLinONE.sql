@@ -49,3 +49,58 @@ describe employees;
 UPDATE employees SET id_car = 4 WHERE id_employees = 1;
 /* https://i.imgur.com/SbBdMcR.png */
 
+11.11
+
+
+
+________________________________________
+inserty
+
+/*
+describe car;
+INSERT INTO car
+VALUES (null, 'manufacturer', 'model');
+SELECT COUNT(*) AS auta
+FROM car;
+*/
+
+/*
+describe employees;
+INSERT INTO employees
+VALUES (null, '', '');
+SELECT COUNT(*) AS noobky
+FROM employees;
+*/
+
+describe employees;
+INSERT INTO employees
+VALUES (null, 'Melichar', 'Rando', 35, 'email@seznam.cz');
+SELECT COUNT(*) AS noobky
+FROM employees;
+
+describe employees;
+INSERT INTO employees
+VALUES (null, 'randomzenska', 'Random-ova', 19, 'email@seznam.cz', 0);
+SELECT COUNT(*) AS noobky
+FROM employees;
+
+/*
+describe garages;
+INSERT INTO garages
+VALUES (null, '', '', , '');
+SELECT COUNT(*) AS baraky
+FROM garages;
+*/
+
+describe garages;
+INSERT INTO garages
+VALUES (null, 'souljaboycrankdat@email.com', 987654321,'2,650 krychlových metru','21N, W60. 51 12.234, 35-23.456', 'velkej sklad', 'barák do kterého dáváme auta');
+SELECT COUNT(*) AS baraky
+FROM garages;
+
+
+/* photos 
+https://i.imgur.com/e4rOZul.png
+https://i.imgur.com/SAldDPl.png
+https://i.imgur.com/7EakIvw.png
+*/
