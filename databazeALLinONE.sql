@@ -117,20 +117,23 @@ CREATE TABLE countries (
   PRIMARY KEY (id_country)
 );
 
-DESCRIBE countries;
-
-
-INSERT INTO countries
-VALUES (null, 'Germany', 'DU', NULL, NULL);
-
-INSERT INTO countries
-VALUES (null, 'France', 'FR', NULL, NULL);
-
-
-INSERT INTO countries
-VALUES (null, 'Saudi Arabia', 'SA', NULL, NULL);
-describe countries;
-
-
-
-
+INSERT INTO `countries` (`id_country`, `name`, `code`, `description`, `death_total`) VALUES
+(1,	'Czech',	'CZ',	NULL,	7499),
+(2,	'Germany',	'DU',	NULL,	NULL),
+(3,	'France',	'FR',	NULL,	NULL),
+(4,	'Austria',	'AT',	NULL,	NULL),
+(6,	'Moldavia',	'MD',	NULL,	NULL),
+(7,	'Slovakia',	'SK',	NULL,	NULL),
+(8,	'Ukraine',	'UA',	NULL,	NULL),
+(9,	'Uzbekistan',	'UZ',	NULL,	NULL),
+(10,	'Kyrgyzstan',	'KG',	NULL,	NULL),
+(11,	'kazakhstan',	'KZ',	NULL,	NULL),
+(12,	'Afghanistan',	'AF',	NULL,	NULL),
+(13,	'Lithuania',	'LT',	NULL,	NULL),
+(14,	'Latvia',	'LV',	NULL,	NULL),
+(15,	'Japan',	'JP',	NULL,	NULL),
+(16,	'Russia',	'RU',	NULL,	NULL),
+(17,	'Vietnam',	'VN',	NULL,	NULL),
+(18,	'India',	'IN',	NULL,	NULL),
+(19,	'Cuba',	'CU',	NULL,	NULL),
+(20,	'Saudi Arabia',	'SA',	NULL,	NULL);
