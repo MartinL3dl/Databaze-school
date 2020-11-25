@@ -107,6 +107,7 @@ https://i.imgur.com/7EakIvw.png
 
 
 _____________________________________________
+24.11
 
 CREATE TABLE countries (
   id_country int AUTO_INCREMENT,
