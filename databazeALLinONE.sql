@@ -109,6 +109,27 @@ https://i.imgur.com/7EakIvw.png
 _____________________________________________
 24.11
 
+CREATE TABLE countries (
+  id_country int AUTO_INCREMENT,
+  name varchar(255) NOT NULL,
+  code varchar(10) NOT NULL,
+  description text,
+  PRIMARY KEY (id_country)
+);
+
+DESCRIBE countries;
+
+
+INSERT INTO countries
+VALUES (null, 'Germany', 'DU', NULL, NULL);
+
+INSERT INTO countries
+VALUES (null, 'France', 'FR', NULL, NULL);
+
+
+INSERT INTO countries
+VALUES (null, 'Saudi Arabia', 'SA', NULL, NULL);
+describe countries;
 
 
 
