@@ -137,3 +137,43 @@ INSERT INTO `countries` (`id_country`, `name`, `code`, `description`, `death_tot
 (18,	'India',	'IN',	NULL,	NULL),
 (19,	'Cuba',	'CU',	NULL,	NULL),
 (20,	'Saudi Arabia',	'SA',	NULL,	NULL);
+
+
+	________________________________________
+26.11
+
+describe countries;
+UPDATE countries
+SET death_total = 7499
+WHERE id_country = 1;
+SELECT * FROM countries;
+
+describe countries;
+UPDATE countries
+SET death_total = 7499
+WHERE id_country = 1;
+SELECT * FROM countries;
+
+________________________________________
+den co jsem udělal covid deaths XD XD
+
+INSERT INTO `countries` (`id_country`, `name`, `code`, `description`, `death_total`) VALUES
+(1,	'Czech',	'CZ',	NULL,	7499),
+(2,	'Germany',	'DU',	NULL,	5458),
+(3,	'France',	'FR',	NULL,	1400000),
+(4,	'Austria',	'AT',	NULL,	3184),
+(6,	'Moldavia',	'MD',	NULL,	42069),
+(7,	'Slovakia',	'SK',	NULL,	5458000),
+(8,	'Ukraine',	'UA',	NULL,	12327),
+(9,	'Uzbekistan',	'UZ',	NULL,	45000),
+(10,	'Kyrgyzstan',	'KG',	NULL,	65000),
+(11,	'kazakhstan',	'KZ',	NULL,	120000),
+(12,	'Afghanistan',	'AF',	NULL,	7500),
+(13,	'Lithuania',	'LT',	NULL,	4500),
+(14,	'Latvia',	'LV',	NULL,	25000),
+(15,	'Japan',	'JP',	NULL,	1500),
+(16,	'Russia',	'RU',	NULL,	450000),
+(17,	'Vietnam',	'VN',	NULL,	545),
+(18,	'India',	'IN',	NULL,	6969),
+(19,	'Cuba',	'CU',	NULL,	69),
+(20,	'Saudi Arabia',	'SA',	NULL,	150000);
