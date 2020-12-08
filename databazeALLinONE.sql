@@ -177,3 +177,26 @@ INSERT INTO `countries` (`id_country`, `name`, `code`, `description`, `death_tot
 (18,	'India',	'IN',	NULL,	6969),
 (19,	'Cuba',	'CU',	NULL,	69),
 (20,	'Saudi Arabia',	'SA',	NULL,	150000);
+
+________________________________________
+3.12
+
+SELECT * 
+FROM countries
+WHERE death_total > 4000 ;
+
+8.12
+
+SELECT *
+FROM countries
+ORDER BY deaths_total DESC;
+
+SELECT *
+FROM countries
+ORDER BY code ASC;
+
+SELECT * 
+FROM countries
+WHERE death_total <= 1000 or death_total >= 5000 ;
+
+
