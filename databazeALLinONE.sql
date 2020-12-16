@@ -199,4 +199,18 @@ SELECT *
 FROM countries
 WHERE death_total <= 1000 or death_total >= 5000 ;
 
+describe countries;
+SELECT *
+FROM countries
+WHERE name LIKE '%republic%';
 
+
+describe countries;
+SELECT *
+FROM countries
+WHERE name LIKE '%a';
+
+describe countries;
+SELECT *
+FROM countries
+WHERE name LIKE 'U%';
